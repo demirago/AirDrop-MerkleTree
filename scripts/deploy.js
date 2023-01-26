@@ -26,7 +26,7 @@ async function main() {
   distributor = await MerkleDistributor.deploy(
     token.address,
     tree.getHexRoot(),
-    BigNumber.from('2000000000000000000')   //claim edilen değer.    
+    BigNumber.from('2000000000000000000')    
   );
   console.log("7");
  
